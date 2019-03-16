@@ -129,6 +129,10 @@ PRODUCT_RESTRICT_VENDOR_FILES := false
 PRODUCT_PACKAGES += \
     bootanimation.zip
 
+# Cutout control overlay
+PRODUCT_PACKAGES += \
+    NoCutoutOverlay
+
 # AOSP packages
 PRODUCT_PACKAGES += \
     Email \
