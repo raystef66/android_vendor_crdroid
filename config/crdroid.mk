@@ -24,3 +24,29 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.services.whitelist.packagelist=com.google.android.gms
+
+# Extra packages
+PRODUCT_PACKAGES += \
+    ThemePicker \
+    GalleryGoPrebuilt \
+    NexusLauncherRelease \
+    PixelThemes \
+    SettingsIntelligenceGooglePrebuilt
+
+# Overlays
+PRODUCT_PACKAGES += \
+    NexusLauncherReleaseOverlay
+
+# Accents
+PRODUCT_PACKAGES += \
+    AccentColorYellowOverlay \
+    AccentColorVioletOverlay \
+    AccentColorTealOverlay \
+    AccentColorRedOverlay \
+    AccentColorQGreenOverlay \
+    AccentColorPinkOverlay \
+    AccentColorLightPurpleOverlay \
+    AccentColorIndigoOverlay \
+    AccentColorFlatPinkOverlay \
+    AccentColorCyanOverlay \
+    AccentColorBlueGrayOverlay
