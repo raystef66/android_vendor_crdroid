@@ -88,4 +88,5 @@ PRODUCT_PACKAGES += \
 # Dark Styles
 PRODUCT_PACKAGES += \
     SystemAmoledBlack \
-    SystemCharcoalBlack
+    SystemCharcoalBlack \
+    SystemMidnightBlue
