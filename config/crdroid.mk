@@ -31,7 +31,8 @@ PRODUCT_PACKAGES += \
     crDroidThemesStub \
     ThemePicker \
     OmniStyle \
-    Longshot
+    Longshot \
+    OPScreenRecorder
 
 # Accents
 PRODUCT_PACKAGES += \
